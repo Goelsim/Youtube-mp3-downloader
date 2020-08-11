@@ -1,0 +1,16 @@
+{
+  "name": "youtube-mp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "ora": "^5.0.0",
+    "youtube-mp3-downloader": "^0.7.3"
+  }
+}
