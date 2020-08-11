@@ -11,6 +11,7 @@
   "dependencies": {
     "commander": "^6.0.0",
     "ora": "^5.0.0",
+    "progress": "^2.0.3",
     "youtube-mp3-downloader": "^0.7.3"
   }
 }
