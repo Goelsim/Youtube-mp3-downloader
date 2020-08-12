@@ -13,8 +13,8 @@ program.command('ytd')
     .requiredOption('-l, --link <link>', 'A youtube video link or id')
     .option('-n, --names [names]', 'Name of the downloaded file')
     .action((cmObj) => {
-        let {link, name} = cmObj;
-        Downloader.download(link, name)
+        let {link, names} = cmObj;
+        Downloader.download(link, names)
             .then(finishedObj => {
                 //console.log("Succeeded.")
                 spinner.succeed(`Finished downloading..."${finishedObj.videoTitle}" in ${finishedObj.stats.runtime} seconds`);
